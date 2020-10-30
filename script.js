@@ -23,7 +23,7 @@ var checklist = document.querySelector('ul');
 checklist.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle('checked');
-  }s
+  }
 }, false);
 
 // Uuden tehtävän lisääminen/jos kenttä on tyhjä, ilmoitetaan alertilla
